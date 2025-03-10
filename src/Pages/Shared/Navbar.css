@@ -1,4 +1,4 @@
-.active{
+/* .active{
     background-color: rgb(153, 203, 241);
 }
 .nav{
@@ -8,38 +8,71 @@
     position: sticky;
     top: 0;
 }
-.nav ul{
+
+
+ */
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    height: 80px;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+}
+nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-left: 30rem;
+}
+
+nav ul li {
+   list-style: none;
+    line-height: 80px;
+    margin: 0 15px;
    
+    
 }
-.nav ul li{
-    list-style: none;
-}
-.nav ul li a{
-    text-decoration: none;
+
+nav ul li a {
+    position: relative;
     color: black;
     padding: 7px 10px;
     border-radius: 5px; 
+    text-decoration: none;
+
 }
 .nav ul li a:not(.active):hover{
     color: white;
     background-color:rgba(58, 66, 86, 1);
 }
+ #open,
+ #close {
+    color: rgb(9, 9, 9);
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
 
 @media screen and (max-width: 576px) {
-    nav ul li a{
-        color: black;
-    }
+   
     nav ul{
         margin-left: 0;
-        gap: 15px;
+      flex-direction: column;
     }
     label #open {
         display: block;
         position: absolute;
-        left:  20px;
+        right:  20px;
         cursor: pointer;
         
     }
@@ -51,18 +84,19 @@
         width: 50%;
         height: 50vh;
         background: rgb(252, 254, 254);
-        top: 80px;
+        top: 50px;
         left: -100%;
         text-align: center;
         transition: all 0.5s;
         z-index: 1;
     }
     nav{
-        position: fixed;
-        width: 100%;
+       
         z-index: 1;
         background-color: white;
         height: 50px;
+        align-items: center;
+       
     }
     nav ul li {
         display: block;
@@ -83,7 +117,7 @@
     #check:checked~label #close {
         display: block;
         cursor: pointer;
-        left: 20px;
+        right: 20px;
         position: absolute;
        
     }

@@ -1,0 +1,13 @@
+.buttonBg{
+background: linear-gradient(to right, rgb(24, 192, 158), rgb(81, 210, 230));
+color: white;
+border: none;
+border-radius: 5px;
+}
+.infoBtn{
+    width: 30%;
+}
+.infoLayout{
+    width: 90%;
+    margin: 0 auto;
+}

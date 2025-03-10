@@ -1,12 +1,15 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css"
+import { FaBars } from "react-icons/fa";
+import { FaXmark } from "react-icons/fa6";
+
 const Navbar = () => {
   return (
-   <nav className="nav container">
+   <nav className="nav">
      <input type="checkbox" id="check"/>
             <label for="check">
-                <i class="fa-solid fa-bars" id="open"></i>
-                <i class="fa-solid fa-xmark" id="close"></i>
+                <FaBars id="open"></FaBars>
+                <FaXmark id="close"></FaXmark>
             </label>
     <h4>Doctors Portal</h4>
   <ul className="">
