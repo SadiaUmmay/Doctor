@@ -2,12 +2,22 @@
 background: linear-gradient(to right, rgb(24, 192, 158), rgb(81, 210, 230));
 color: white;
 border: none;
-border-radius: 5px;
+border-radius: 10px;
 }
 .infoBtn{
     width: 30%;
+    padding: 30px 20px;
+    margin: 0 auto;
 }
 .infoLayout{
     width: 90%;
     margin: 0 auto;
+}
+.infoBtn-btn{
+    font-size: 45px;
+}
+.gray-btn{
+    background-color: rgba(58, 66, 86, 1);
+    color: white;
+    border-radius: 10px;
 }

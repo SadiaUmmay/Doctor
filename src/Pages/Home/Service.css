@@ -1,0 +1,10 @@
+.service{
+    color: rgb(23, 230, 230);
+}
+.service-card{
+width: 30%;
+margin: 0 auto;
+padding: 30px 0px;
+border-radius: 10px;
+box-shadow: 5px 5px 5px  rgb(243, 241, 241);
+}
