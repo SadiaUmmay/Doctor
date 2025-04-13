@@ -1,5 +1,6 @@
 import Appoinment from "./Appoinment";
 import Banner from "./Banner";
+import Contact from "./Contact";
 import Info from "./Info";
 import Service from "./Service";
 import Terms from "./Terms";
@@ -15,6 +16,7 @@ const Home = () => {
     <Terms></Terms>
     <Appoinment></Appoinment>
     <Testimonial></Testimonial>
+    <Contact></Contact>
     </div>
   );
 };

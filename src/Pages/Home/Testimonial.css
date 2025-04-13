@@ -1,3 +1,35 @@
-.quoteimg{
-width: 150px;
+.quoteimg {
+    width: 150px;
+    height: 180px;
+}
+
+.testimonial-color {
+    color: rgb(51, 211, 211);
+    font-weight: bold;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    gap: 60%;
+    align-items: center;
+    line-height: 15px;
+}
+
+.testimonial-card {
+    width: 25%;
+    margin: 0 auto;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(243, 241, 241);
+}
+.testimonial-img{
+    width: 15%;
+    height: 15%;
+    margin-right: 10px;
+    border: 3px solid rgb(30, 186, 186);
+    border-radius: 30px;
+}
+.testimonial-name{
+    line-height: 10px;
 }

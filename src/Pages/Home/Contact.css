@@ -1,0 +1,25 @@
+.contact{
+    background-image: url(../../assets/images/appointment.png);
+    background-repeat: no-repeat;
+    padding: 30px 0;
+    padding-bottom: 50px;
+    margin: 50px 0;
+}
+.form{
+    margin-left: 33%;
+}
+.input , .input-msg{
+width: 50%;
+margin: 10px auto;
+border-radius: 5px;
+border: none;
+padding: 8px ;
+}
+.input-msg{
+    padding: 8px 10px 120px 8px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
